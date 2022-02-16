@@ -1,0 +1,337 @@
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+
+/*Shapes*/
+.custom-shape-divider-top-1635369871 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1635369871 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 145px;
+}
+
+.custom-shape-divider-top-1635369871 .shape-fill {
+    fill: #9013FE80;
+}
+
+
+/*Container Scarpa 1*/
+.containerShoes  {
+    position: relative;
+    padding: 0 20px 20px;
+}
+
+.containerShoes .card   {
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background: #292929;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.containerShoes .card:before    {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9013FE80;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.containerShoes .card:hover:before   {
+    clip-path: circle(300px at 80% -20%);
+}
+
+.containerShoes .card:after    {
+    content: 'Nike';
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 12em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(255,255,255,0.04);
+}
+
+.containerShoes .card .imgBxShoe1   {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+}
+
+.containerShoes .card:hover .imgBxShoe1   {
+    top: 0%;
+    transform: translateY(0%);
+}
+
+.containerShoes .card .imgBxShoe1 img   {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-25deg);
+    width: 270px;
+}
+
+.containerShoes .card .contentBxShoe1   {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.containerShoes .card:hover .contentBxShoe1    {
+    height: 210px;
+}
+
+.containerShoes .card .contentBxShoe1 h2    {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.containerShoes .card .contentBxShoe1 .sizeShoe1   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.containerShoes .card:hover .contentBxShoe1 .sizeShoe1    {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.containerShoes .card .contentBxShoe1 .sizeShoe1 h3   {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.containerShoes .card .contentBxShoe1 .sizeShoe1 span    {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.containerShoes .card .contentBxShoe1 .sizeShoe1 span:hover     {
+    background: #9013FE80;
+}
+
+.containerShoes .card .contentBxShoe1 a   {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #9013FE80;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    transform: translateY(50px);
+    transition: 0.5s;
+}
+
+.containerShoes .card:hover .contentBxShoe1 a   {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.75s;
+}
+
+
+/*Container Scarpa 2*/
+.containerShoes2  {
+    position: relative;
+    padding: 0 20px 20px;
+}
+
+.containerShoes2 .card2   {
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background: #292929;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.containerShoes2 .card2:before    {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fca41e;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.containerShoes2 .card2:hover:before   {
+    clip-path: circle(300px at 80% -20%);
+}
+
+.containerShoes2 .card2:after    {
+    content: 'Nike';
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 12em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(255,255,255,0.04);
+}
+
+.containerShoes2 .card2 .imgBxShoe2   {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+}
+
+.containerShoes2 .card2:hover .imgBxShoe2   {
+    top: 0%;
+    transform: translateY(0%);
+}
+
+.containerShoes2 .card2 .imgBxShoe2 img   {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-25deg);
+    width: 270px;
+}
+
+.containerShoes2 .card2 .contentBxShoe2   {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.containerShoes2 .card2:hover .contentBxShoe2    {
+    height: 210px;
+}
+
+.containerShoes2 .card2 .contentBxShoe2 h2    {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.containerShoes2 .card2 .contentBxShoe2 .sizeShoe2   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.containerShoes2 .card2:hover .contentBxShoe2 .sizeShoe2    {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.containerShoes2 .card2 .contentBxShoe2 .sizeShoe2 h3   {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.containerShoes2 .card2 .contentBxShoe2 .sizeShoe2 span    {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.containerShoes2 .card2 .contentBxShoe2 .sizeShoe2 span:hover     {
+    background: #fca41e;
+}
+
+.containerShoes2 .card2 .contentBxShoe2 a   {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fca41e;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    transform: translateY(50px);
+    transition: 0.5s;
+}
+
+.containerShoes2 .card2:hover .contentBxShoe2 a   {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.75s;
+}
